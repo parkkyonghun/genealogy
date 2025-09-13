@@ -4,7 +4,10 @@
 
 <x-app-layout>
     <x-slot name="heading">
-        {{ __('app.home') }}
+        <div class="text-center">
+            <h1 class="text-2xl font-bold">មរតក</h1>
+            <p class="text-lg mt-1">សុភមង្គល លី ថារិទ្ធ</p>
+        </div>
     </x-slot>
 
     <div class="w-full p-2 space-y-5">
@@ -14,7 +17,7 @@
                     <x-authentication-card-logo />
                 </div>
 
-                <div class="w-full p-6 mt-6 overflow-hidden prose bg-white rounded shadow-md sm:max-w-5xl">
+                <div class="w-full p-6 mt-6 overflow-hidden prose bg-secondary rounded shadow-md sm:max-w-5xl font-koulen">
                     {!! $home !!}
                 </div>
             </div>

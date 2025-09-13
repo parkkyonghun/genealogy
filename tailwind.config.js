@@ -28,32 +28,13 @@ export default {
         extend: {
             colors: {
                 'primary': {
-                    default: '#3B71CA',
-                    '50': '#F1F5FB',
-                    '100': '#E3EBF7',
-                    '200': '#C7D7F0',
-                    '300': '#ABC2E8',
-                    '400': '#8FAEE0',
-                    '500': '#6590D5',
-                    '600': '#3061AF',
-                    '700': '#285192',
-                    '800': '#204075',
-                    '900': '#183058',
-                    '950': '#183058',
+                    default: '#A50021', // Rich Temple Red
                 },
                 'secondary': {
-                    default: '#9FA6B2',
-                    '50': '#F8F9F9',
-                    '100': '#F1F2F4',
-                    '200': '#E4E6E9',
-                    '300': '#D6D9DE',
-                    '400': '#C8CCD3',
-                    '500': '#B3B9C2',
-                    '600': '#848D9C',
-                    '700': '#6B7585',
-                    '800': '#565D6B',
-                    '900': '#404650',
-                    '950': '#404650',
+                    default: '#F2E8C9', // Sandstone
+                },
+                'accent': {
+                    default: '#FFC107', // Golden Apsara
                 },
                 'success': {
                     default: '#14A44D',
@@ -146,7 +127,8 @@ export default {
             },
 
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Hanuman', ...defaultTheme.fontFamily.sans],
+                koulen: ['Koulen', 'sans-serif'],
             },
         },
     },

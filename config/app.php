@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => env('APP_LOCALE', 'en'),
+    'locale' => env('APP_LOCALE', 'km'),
 
     // add all available translations here, after providing the needed translation files in /lang/XX/
     'available_locales' => [
@@ -90,6 +90,7 @@ return [
         'Português'  => 'pt',               // Portuguese
         'Việt Nam'   => 'vi',               // Vietnamese
         '中文简体'       => 'zh_cn',            // Chinees
+        'ភាសាខ្មែរ'   => 'km',
     ],
 
     'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
